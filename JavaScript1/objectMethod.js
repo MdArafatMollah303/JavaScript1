@@ -9,6 +9,7 @@ console.log(Object.keys(obj));
 console.log(Object.entries(obj));
 console.log(Object.values(obj));
 
-var obj2 = Object.create(obj)
-obj2.x = 100;
+var obj2 = Object.assign({},obj)
+obj2.a = 100;
+console.log(obj)
 console.log(obj2)
